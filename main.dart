@@ -1,18 +1,10 @@
 void main () {
  
-  var age = 20;
-  var pi = 3.14;
-  var name = "fame";
-  var isCheck = true;
+  int x = 100;
+  const number = 50;
+  print(number);
 
-  dynamic name2 = "kun";
-
-  print(age);
-  print("Hello Dart");
-  print(pi);
-  print(name);
-  print(isCheck);
-
-  print(name2);
+  final number2 = 2000 + x;
+  print(number2);
   
 }
