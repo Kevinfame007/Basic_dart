@@ -1,18 +1,30 @@
 void main () {
  
-  var age = 20;
-  var pi = 3.14;
-  var name = "fame";
-  var isCheck = true;
+  int x = 10;
+  int y = 10;
 
-  dynamic name2 = "kun";
+  print(x);
+  print(y);
+    
+  int x1 = 10;
+  int y1 = 10;
 
-  print(age);
-  print("Hello Dart");
-  print(pi);
+  print(x1);
+  print(y1);
+
+  int _for = 10;
+  int _if = 10;
+
+  print(_for);
+  print(_if);
+
+  String name = "Su";
+  String Name = "pha";
+  String NAME = "nut";
+
   print(name);
-  print(isCheck);
+  print(Name);
+  print(NAME);
+  print(name + Name + NAME);
 
-  print(name2);
-  
 }
