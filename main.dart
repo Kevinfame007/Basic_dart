@@ -1,30 +1,16 @@
 void main () {
- 
-  int x = 10;
-  int y = 10;
 
-  print(x);
-  print(y);
-    
-  int x1 = 10;
-  int y1 = 10;
+  // var fname = 'Suphanut';
+  // String lname = 'Taengtoemphon';
 
-  print(x1);
-  print(y1);
+  // print(fname);
+  // print(lname);
 
-  int _for = 10;
-  int _if = 10;
+  var name = "fame";
+  var city = "nonthaburi";
+  var age = 20;
+  var number1 = 50;
 
-  print(_for);
-  print(_if);
-
-  String name = "Su";
-  String Name = "pha";
-  String NAME = "nut";
-
-  print(name);
-  print(Name);
-  print(NAME);
-  print(name + Name + NAME);
+  print("ชื่อ = $name อายุ = ${age+number1}");
 
 }
