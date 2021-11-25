@@ -1,10 +1,20 @@
-void main () {
-  
-  var number1=500, number2=200;
-  String result;
+void main() {
+  var month = "one";
+  String name;
 
-  result = (number1>number2) ? "more than" : "less than";
+  switch (month) {
+    case "one":
+      name = "january";
+      break;
+    case "two":
+      name = "febuary";
+      break;
+    case "three":
+      name = "march";
+      break;
+    default:
+      name = "not found data";
+  }
 
-  print(result);
-
+  print("month $month = $name");
 }
