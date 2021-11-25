@@ -1,14 +1,10 @@
 void main () {
-  //buy coke and mama discount = 100 bath
-  //buy bread and juice discount = 50 bath
-  //buy product not equal 1000 bath = no discount
+  
+  var number1=500, number2=200;
+  String result;
 
-  var product1 = "coffee", product2 = "juice";
+  result = (number1>number2) ? "more than" : "less than";
 
-  if (!(product1 == "bread")) {
-    print("discount 50 bath");
-  } else {
-    print("no discount");
-  }
+  print(result);
 
 }
