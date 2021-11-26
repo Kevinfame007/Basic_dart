@@ -1,9 +1,8 @@
 void main() {
-  int count = 1;
-  int stop = 10;
-  while (count<=stop) {
-    print("ผลิตรอบที่ = $count");
-    count++;
+
+  var number = 5;
+  for (var count = 1; count <= 12; count++) {
+    print("$number X $count = ${number * count}");
   }
   print("จบโปรแกรม");
 }
