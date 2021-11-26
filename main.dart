@@ -1,20 +1,9 @@
 void main() {
-  var month = "one";
-  String name;
-
-  switch (month) {
-    case "one":
-      name = "january";
-      break;
-    case "two":
-      name = "febuary";
-      break;
-    case "three":
-      name = "march";
-      break;
-    default:
-      name = "not found data";
+  int count = 1;
+  int stop = 10;
+  while (count<=stop) {
+    print("ผลิตรอบที่ = $count");
+    count++;
   }
-
-  print("month $month = $name");
+  print("จบโปรแกรม");
 }
