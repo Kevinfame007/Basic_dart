@@ -1,8 +1,9 @@
 void main() {
-
-  var number = 5;
-  for (var count = 1; count <= 12; count++) {
-    print("$number X $count = ${number * count}");
-  }
-  print("จบโปรแกรม");
+  
+  var count = 10;
+  do {
+    print("Hello Dart = $count");
+    count++;
+  } while (count<=3);
+  print("End");
 }
